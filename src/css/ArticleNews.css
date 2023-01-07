@@ -8,10 +8,12 @@
 }
 .news-header{
     color: hsl(36, 100%, 99%);
+    transition: color 0.3s linear;
 }
 .news-header:hover{
     color:hsl(35, 77%, 62%);
     cursor: pointer;
+    transition: color 0.3s linear;
 }
 .news-paragraph{
     color: hsl(233, 8%, 79%);
