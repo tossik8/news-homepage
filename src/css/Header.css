@@ -7,9 +7,11 @@
     text-decoration: none;
     color: hsl(236, 13%, 42%);
     cursor: pointer;
+    transition: color 0.3s linear;
 }
 .margin-right:hover{
     color: hsl(35, 77%, 62%);
+    transition: color 0.3s linear;
 }
 .margin-icon-right{
     margin-right: 1rem;
