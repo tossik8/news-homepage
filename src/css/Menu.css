@@ -1,0 +1,42 @@
+ul{
+    list-style: none;
+    margin-top: 10rem;
+}
+#menu{
+    position: absolute;
+    min-height: 100vh;
+    display: flex;
+    margin-top: -3.5rem;
+    width: 100vw;
+}
+#cross-button{
+    background: url("../../images/icon-menu-close.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    border: none;
+    left: 80%;
+    top: 4rem;
+}
+.background-div{
+    background: rgba(4, 6, 0, 0.3);
+    height: 100vh;
+    width: 35vw;
+}
+#menu-info{
+    background-color: hsl(36, 100%, 99%);
+    width: 75%;
+}
+li{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: hsl(240, 100%, 5%);
+}
+@media screen and (min-width: 610px) {
+    #menu{
+        margin-top: -3.5rem;
+    }
+}

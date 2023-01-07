@@ -1,0 +1,42 @@
+.ratings{
+    display: flex;
+}
+.image{
+   margin-right: 1rem;
+   max-height: 13rem;
+   max-width: 100%;
+}
+.rating{
+    display: flex;
+    min-width: 20rem;
+    max-width: 27rem;
+}
+.rank{
+    font-weight: 800;
+    color: hsl(233, 8%, 79%);
+    font-size:2rem;
+}
+.title{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.title:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+.subtitle{
+    color:hsl(236, 13%, 42%);
+}
+@media screen and (max-width: 430px) {
+    .title{
+        font-size: 0.935rem;
+    }
+    .subtitle{
+        font-size: 0.87rem;
+    }
+}
+@media screen and (max-width: 786px) {
+    .rating{
+        margin-bottom: 1rem;
+    }
+}

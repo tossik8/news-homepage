@@ -1,0 +1,28 @@
+.picture-width{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.margin-col-right{
+    margin-right: 2rem;
+}
+.no-padding{
+    padding: 0;
+}
+.red-button{
+    border:none;
+    padding: 0.5rem 1.5rem;
+    background-color:hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 0.2rem;
+}
+h1{
+    font-weight: 800;
+    color: hsl(240, 100%, 5%);
+}
+.red-button:hover{
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}
+.article-description{
+    color:hsl(236, 13%, 42%);
+}

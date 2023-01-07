@@ -1,0 +1,23 @@
+.new-heading{
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 1.5rem;
+}
+.news-section{
+    background-color: hsl(240, 100%, 5%);
+    padding:1rem;
+}
+.news-header{
+    color: hsl(36, 100%, 99%);
+}
+.news-header:hover{
+    color:hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+.news-paragraph{
+    color: hsl(233, 8%, 79%);
+}
+.separator{
+   background-color:hsl(236, 13%, 42%);
+   height: 0.1rem;
+   margin: 2rem 0 1rem 0;
+}
